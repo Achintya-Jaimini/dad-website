@@ -1,0 +1,187 @@
+body {
+	font-family: Intro;
+	background-color: #FFE4C4;
+}
+
+header {
+	width: 90.4%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	color: white;
+	padding: 10px;
+	border-style:solid;
+	border-color:orange;
+	border-width: 0px 0px 15px 0px;
+	overflow:hidden;
+}
+
+header h1 {
+	font-family: Edwardian Script ITC, cursive;
+}
+
+footer {
+	width: 90.4%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+	color: white;
+	padding:10px;
+	border-style:solid;
+	border-color:orange;
+	border-width: 15px 0px 0px 0px;
+	overflow:hidden;
+}
+
+section {
+	width: 90%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	color:black;
+	padding:10px 10px 10px 10px;
+	border-style:solid;
+	border-color:black;
+	border-width:3px 3px 3px 3px;
+	border-top:0;
+	border-bottom:0;
+	overflow:hidden;
+}
+
+nav {
+	float: right;
+	width:30%;
+}
+
+hgroup {
+	float:left;
+	width:70%;
+}
+
+h1, h2, h3 {
+	padding:0;
+	margin:0;
+	padding-top:10px
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+nav li {
+	float:left;
+	margin-right:10px;
+}
+
+nav ul {
+	list-style-type:none;
+}
+
+nav button {
+	background-color:black;
+	color:white;
+	padding:10px;
+    border-radius:35px;
+	font-size:1.1em;
+	border-style:solid;
+	border-width:3.5px;
+	border-color:black;
+	transition-duration:0.65s;
+}
+
+form button {
+	background-color:white;
+	color:blue;
+	padding:10px;
+    border-radius:35px;
+	font-size:1.1em;
+	border-style:solid;
+	border-width:3.5px;
+	border-color:blue;
+	transition-duration:0.65s;
+}
+
+form button:hover {
+	background-color:blue;
+	color:white;
+	cursor:pointer;
+	transition-duration:0.65s;
+}
+
+nav button:hover {
+	background-color:white;
+	color:black;
+	cursor:pointer;
+	transition-duration:0.65s;
+}
+
+h1.hello {
+	padding-top:0;
+	line-height:1em;
+	color:white;
+}
+
+hgroup h2 {
+	line-height:1em;
+	text-transform:uppercase;
+}
+
+video {
+	width:50%;
+	height:325px;
+	margin-left: 250px;
+}
+
+div.video {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+a {
+	line-height:1em;
+	cursor:pointer;
+	transition-duration:1s;
+	color:blue;
+}
+
+div.heading img {
+	width:5%;
+	float:right;
+}
+
+div.p p {
+	width:70%;
+	float:left;
+}
+
+input {
+	width:40%;
+	float:left;
+	height:30px;
+}
+
+div.video img {
+	width:20%;
+}
+
+input[placeholder] {
+	text-decoration:bold;
+}
+
+div.video p {
+	float:right;
+	text-align:left;
+}
+
+textarea {
+	width:40%;
+}
